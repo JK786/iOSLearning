@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85139EB81DA282DD009F9F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85139EB71DA282DD009F9F86 /* main.m */; };
+		85139EC11DA282DD009F9F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85139EBF1DA282DD009F9F86 /* Main.storyboard */; };
+		85139EC31DA282DD009F9F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85139EC21DA282DD009F9F86 /* Assets.xcassets */; };
+		85139EC61DA282DD009F9F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85139EC41DA282DD009F9F86 /* LaunchScreen.storyboard */; };
+		85139ED11DA282DD009F9F86 /* CamelCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85139ED01DA282DD009F9F86 /* CamelCaseTests.m */; };
+		85139EDC1DA282DD009F9F86 /* CamelCaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85139EDB1DA282DD009F9F86 /* CamelCaseUITests.m */; };
+		85139EEB1DA283AC009F9F86 /* NSString+CamelCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85139EEA1DA283AC009F9F86 /* NSString+CamelCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85139ECD1DA282DD009F9F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85139EAB1DA282DD009F9F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85139EB21DA282DD009F9F86;
+			remoteInfo = CamelCase;
+		};
+		85139ED81DA282DD009F9F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85139EAB1DA282DD009F9F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85139EB21DA282DD009F9F86;
+			remoteInfo = CamelCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85139EB31DA282DD009F9F86 /* CamelCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamelCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85139EB71DA282DD009F9F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85139EC01DA282DD009F9F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85139EC21DA282DD009F9F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85139EC51DA282DD009F9F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85139EC71DA282DD009F9F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85139ECC1DA282DD009F9F86 /* CamelCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85139ED01DA282DD009F9F86 /* CamelCaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamelCaseTests.m; sourceTree = "<group>"; };
+		85139ED21DA282DD009F9F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85139ED71DA282DD009F9F86 /* CamelCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85139EDB1DA282DD009F9F86 /* CamelCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamelCaseUITests.m; sourceTree = "<group>"; };
+		85139EDD1DA282DD009F9F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85139EE91DA283AC009F9F86 /* NSString+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CamelCase.h"; sourceTree = "<group>"; };
+		85139EEA1DA283AC009F9F86 /* NSString+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CamelCase.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85139EB01DA282DD009F9F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139EC91DA282DD009F9F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139ED41DA282DD009F9F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85139EAA1DA282DD009F9F86 = {
+			isa = PBXGroup;
+			children = (
+				85139EB51DA282DD009F9F86 /* CamelCase */,
+				85139ECF1DA282DD009F9F86 /* CamelCaseTests */,
+				85139EDA1DA282DD009F9F86 /* CamelCaseUITests */,
+				85139EB41DA282DD009F9F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85139EB41DA282DD009F9F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85139EB31DA282DD009F9F86 /* CamelCase.app */,
+				85139ECC1DA282DD009F9F86 /* CamelCaseTests.xctest */,
+				85139ED71DA282DD009F9F86 /* CamelCaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85139EB51DA282DD009F9F86 /* CamelCase */ = {
+			isa = PBXGroup;
+			children = (
+				85139EBF1DA282DD009F9F86 /* Main.storyboard */,
+				85139EC21DA282DD009F9F86 /* Assets.xcassets */,
+				85139EC41DA282DD009F9F86 /* LaunchScreen.storyboard */,
+				85139EC71DA282DD009F9F86 /* Info.plist */,
+				85139EB61DA282DD009F9F86 /* Supporting Files */,
+				85139EE91DA283AC009F9F86 /* NSString+CamelCase.h */,
+				85139EEA1DA283AC009F9F86 /* NSString+CamelCase.m */,
+			);
+			path = CamelCase;
+			sourceTree = "<group>";
+		};
+		85139EB61DA282DD009F9F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85139EB71DA282DD009F9F86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85139ECF1DA282DD009F9F86 /* CamelCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				85139ED01DA282DD009F9F86 /* CamelCaseTests.m */,
+				85139ED21DA282DD009F9F86 /* Info.plist */,
+			);
+			path = CamelCaseTests;
+			sourceTree = "<group>";
+		};
+		85139EDA1DA282DD009F9F86 /* CamelCaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85139EDB1DA282DD009F9F86 /* CamelCaseUITests.m */,
+				85139EDD1DA282DD009F9F86 /* Info.plist */,
+			);
+			path = CamelCaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85139EB21DA282DD009F9F86 /* CamelCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85139EE01DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCase" */;
+			buildPhases = (
+				85139EAF1DA282DD009F9F86 /* Sources */,
+				85139EB01DA282DD009F9F86 /* Frameworks */,
+				85139EB11DA282DD009F9F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamelCase;
+			productName = CamelCase;
+			productReference = 85139EB31DA282DD009F9F86 /* CamelCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85139ECB1DA282DD009F9F86 /* CamelCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85139EE31DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCaseTests" */;
+			buildPhases = (
+				85139EC81DA282DD009F9F86 /* Sources */,
+				85139EC91DA282DD009F9F86 /* Frameworks */,
+				85139ECA1DA282DD009F9F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85139ECE1DA282DD009F9F86 /* PBXTargetDependency */,
+			);
+			name = CamelCaseTests;
+			productName = CamelCaseTests;
+			productReference = 85139ECC1DA282DD009F9F86 /* CamelCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85139ED61DA282DD009F9F86 /* CamelCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85139EE61DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCaseUITests" */;
+			buildPhases = (
+				85139ED31DA282DD009F9F86 /* Sources */,
+				85139ED41DA282DD009F9F86 /* Frameworks */,
+				85139ED51DA282DD009F9F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85139ED91DA282DD009F9F86 /* PBXTargetDependency */,
+			);
+			name = CamelCaseUITests;
+			productName = CamelCaseUITests;
+			productReference = 85139ED71DA282DD009F9F86 /* CamelCaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85139EAB1DA282DD009F9F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "jibran khan";
+				TargetAttributes = {
+					85139EB21DA282DD009F9F86 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VYAKS7W7VC;
+						ProvisioningStyle = Automatic;
+					};
+					85139ECB1DA282DD009F9F86 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VYAKS7W7VC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85139EB21DA282DD009F9F86;
+					};
+					85139ED61DA282DD009F9F86 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VYAKS7W7VC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85139EB21DA282DD009F9F86;
+					};
+				};
+			};
+			buildConfigurationList = 85139EAE1DA282DD009F9F86 /* Build configuration list for PBXProject "CamelCase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85139EAA1DA282DD009F9F86;
+			productRefGroup = 85139EB41DA282DD009F9F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85139EB21DA282DD009F9F86 /* CamelCase */,
+				85139ECB1DA282DD009F9F86 /* CamelCaseTests */,
+				85139ED61DA282DD009F9F86 /* CamelCaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85139EB11DA282DD009F9F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85139EC61DA282DD009F9F86 /* LaunchScreen.storyboard in Resources */,
+				85139EC31DA282DD009F9F86 /* Assets.xcassets in Resources */,
+				85139EC11DA282DD009F9F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139ECA1DA282DD009F9F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139ED51DA282DD009F9F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85139EAF1DA282DD009F9F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85139EEB1DA283AC009F9F86 /* NSString+CamelCase.m in Sources */,
+				85139EB81DA282DD009F9F86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139EC81DA282DD009F9F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85139ED11DA282DD009F9F86 /* CamelCaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85139ED31DA282DD009F9F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85139EDC1DA282DD009F9F86 /* CamelCaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85139ECE1DA282DD009F9F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85139EB21DA282DD009F9F86 /* CamelCase */;
+			targetProxy = 85139ECD1DA282DD009F9F86 /* PBXContainerItemProxy */;
+		};
+		85139ED91DA282DD009F9F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85139EB21DA282DD009F9F86 /* CamelCase */;
+			targetProxy = 85139ED81DA282DD009F9F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85139EBF1DA282DD009F9F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85139EC01DA282DD009F9F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85139EC41DA282DD009F9F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85139EC51DA282DD009F9F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85139EDE1DA282DD009F9F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85139EDF1DA282DD009F9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85139EE11DA282DD009F9F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85139EE21DA282DD009F9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85139EE41DA282DD009F9F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamelCase.app/CamelCase";
+			};
+			name = Debug;
+		};
+		85139EE51DA282DD009F9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamelCase.app/CamelCase";
+			};
+			name = Release;
+		};
+		85139EE71DA282DD009F9F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CamelCase;
+			};
+			name = Debug;
+		};
+		85139EE81DA282DD009F9F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VYAKS7W7VC;
+				INFOPLIST_FILE = CamelCaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oraclecorp.internal.ent2.pushio.CamelCaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CamelCase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85139EAE1DA282DD009F9F86 /* Build configuration list for PBXProject "CamelCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85139EDE1DA282DD009F9F86 /* Debug */,
+				85139EDF1DA282DD009F9F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85139EE01DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85139EE11DA282DD009F9F86 /* Debug */,
+				85139EE21DA282DD009F9F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85139EE31DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85139EE41DA282DD009F9F86 /* Debug */,
+				85139EE51DA282DD009F9F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85139EE61DA282DD009F9F86 /* Build configuration list for PBXNativeTarget "CamelCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85139EE71DA282DD009F9F86 /* Debug */,
+				85139EE81DA282DD009F9F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85139EAB1DA282DD009F9F86 /* Project object */;
+}
